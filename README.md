@@ -21,7 +21,6 @@ This project was guided by the following core objectives:
 
 ### Dataset
 * **Primary Data:** Google Analytics Customer Revenue Prediction (Kaggle, anonymized and aggregated).
-* **Synthetic Data:** Generated via Scikit-learn’s `make_regression()` for structural validation.
 
 ### Data Preparation
 Raw data was aggregated to a **channel-week level**, cleaned, and nested JSON structures were expanded to create a privacy-safe overview suitable for modeling.
@@ -33,7 +32,7 @@ The research employed a mixed-methods approach:
 | :--- | :--- | :--- |
 | **Linear Regression** | ROI prediction from spend and other variables. | Scikit-learn |
 | **K-Means Clustering** | Segmenting marketing channels into distinct performance tiers. | Scikit-learn |
-| **Visual Analytics** | Identifying trends and comparing channel performance (e.g., boxplots). | Matplotlib, Tableau |
+| **Visual Analytics** | Identifying trends and comparing channel performance (e.g., boxplots). | Matplotlib |
 
 ---
 
@@ -54,8 +53,8 @@ The findings confirm that aggregated data delivers **strategic** insights for bu
 | :--- | :--- |
 | **Data Processing** | Python (`pandas`, `numpy`, `json`) |
 | **Machine Learning** | `Scikit-learn` |
-| **Visualisation** | `Matplotlib`, Tableau |
-| **Environment & Control** | Jupyter Notebook, Git & GitHub |
+| **Visualisation** | `Matplotlib` |
+| **Environment & Control** | Visual Studio Code, Jupyter Notebook, Git & GitHub |
 
 ---
 
